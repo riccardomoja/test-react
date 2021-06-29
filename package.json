@@ -1,0 +1,37 @@
+{
+  "name": "test-react",
+  "version": "0.0.1",
+  "description": "react test app for study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --port 3000",
+    "build": "NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riccardomoja/test-react.git"
+  },
+  "author": "Riccardo Moja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riccardomoja/test-react/issues"
+  },
+  "homepage": "https://github.com/riccardomoja/test-react#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^1.6.2",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.4",
+    "webpack": "^5.41.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.8",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
